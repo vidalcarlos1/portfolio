@@ -19,6 +19,7 @@ Olá, Bem vindo ao meu projeto de portfólio, desenvolvido com as aulas da Alura
 
 ## Curso
 * Alura - HTML e CSS
+* Link do projeto: https://portfolio-one-self-66.vercel.app/
 
 
 
