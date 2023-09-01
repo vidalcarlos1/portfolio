@@ -14,11 +14,10 @@ Olá, Bem vindo ao meu projeto de portfólio, desenvolvido com as aulas da Alura
 * Flex-box
 
 ## Feito por:
+* Carlos Vidal 
 
-### Carlos Vidal 
-
-###
-## Alura - HTML e CSS
+## Curso
+* Alura - HTML e CSS
 
 
 
