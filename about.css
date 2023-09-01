@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Noto+Sans:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Noto+Sans:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&family=Noto+Sans:ital,wght@0,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    padding: 2% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.about_conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about_conteudo_title { /*Sobre mim*/
+    color: aqua;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 200;
+    
+}
+
+.about_conteudo_apresentacao { /* apresentação */ 
+    font-family: 'Krona One', sans-serif;
+    font-size: 16px;
+    width: 50%;
+
+}
+
+.about_carlos { /*imagem*/
+    width: 450px;
+    
+}
+
+@media (max-width:1200px) {
+    .about {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .about_conteudo {
+        width: auto;
+    }
+    .about_conteudo_title{
+        width: auto;
+        text-align: center;
+    }
+
+    .about_conteudo_apresentacao {
+        width: auto;
+    }
+
+    .cabecalho {
+        padding: 5%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+}
